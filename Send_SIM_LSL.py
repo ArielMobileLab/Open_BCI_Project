@@ -1,4 +1,5 @@
-"""Example program to show how to read a multi-channel time series from LSL."""
+"""Example program to show how to read a multi-channel time series from LSL and send it to simulink"""
+
 from pylsl import StreamInlet, resolve_stream
 import csv
 import pandas as pd
